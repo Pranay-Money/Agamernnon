@@ -1,0 +1,4 @@
+python-telegram-bot[webhooks]==22.2
+psycopg[binary]==3.2.10
+solders==0.27.0
+base58==2.1.1
