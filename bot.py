@@ -378,7 +378,7 @@ async def set_bot_commands(app):
         BotCommand("settings", "Configure your settings"),
         BotCommand("wallet", "Manage your wallets"),
         BotCommand("snipe", "snipe[CA]"),
-        BotCommand("rewards", "View your referral and cashback rewards")
+        BotCommand("rewards", "View your referral and cashback rewards"),
         BotCommand("withdraw", "Withdraw tokens, SOL or ETH"),
         BotCommand("help", "FAQ and Telegram channel")
     ]
