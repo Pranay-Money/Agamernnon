@@ -1,5 +1,5 @@
 from telegram.ext import ApplicationBuilder, CallbackQueryHandler, CommandHandler, ContextTypes, MessageHandler, filters
-from telegram import BotCommand, InlineKeyboardButton, InlineKeyboardMarkup, Update, update
+from telegram import BotCommand, InlineKeyboardButton, InlineKeyboardMarkup, Update
 from utils import respond, safe_handler, safe_text_handler
 from database import create_tables, save_import
 from datetime import datetime, timezone
